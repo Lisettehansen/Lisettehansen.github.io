@@ -394,7 +394,9 @@ a:hover {
 
 
     }
-    
+    .linkcase a {
+        text-decoration: none;
+    }
     .casepic {
         width: 20vw;
         height: vw;
