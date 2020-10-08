@@ -397,6 +397,7 @@ a:hover {
     .linkcase a {
         text-decoration: none;
         margin-left: 9vw;
+        font-family: 'Julius Sans One', sans-serif;
     }
     .casepic {
         width: 20vw;
