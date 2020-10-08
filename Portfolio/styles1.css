@@ -248,7 +248,7 @@ a:hover {
         border: 1px solid rgb(255, 255, 255);
 
     }
-    .imgg:hover .overlay1 {
+    .img:hover .overlay1 {
         opacity: 1;
     }
     .overlay1 {
@@ -425,14 +425,12 @@ a:hover {
         color:red;
     }
     .casepic {
-        position: relative;
         width: 20vw;
         height: vw;
         margin:5vw;
     }
     
     .casepic img {
-        display: block;
         width: 35vw;
         height: 25vw;
         margin: ;
