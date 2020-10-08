@@ -248,10 +248,10 @@ a:hover {
         border: 1px solid rgb(255, 255, 255);
 
     }
-    .img:hover .overlay1 {
+    .imgg:hover .overlay1 {
         opacity: 1;
     }
-    .imgg .overlay1 {
+    .overlay1 {
         position: absolute;
         top: 0;
         bottom: 0;
