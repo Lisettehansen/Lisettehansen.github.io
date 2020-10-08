@@ -1,0 +1,441 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*DESKTOP VERSION, 1920X1080 px*/
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header header header" "main main middle middle last last" "text text text right right right" "left left left tekst tekst tekst" "info info info info info info" "footer footer foter foter fot fot";
+}
+
+.gridcontainer .item2 .item3 .item4 {
+    grid-column-gap: 10%;
+    grid-row-gap: 10%;
+}
+
+
+/*FORSIDE*/
+
+.item1 {
+    grid-area: header;
+    background-image: url(images/forside/hero.jpg);
+    height: 1080px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+/*HEADER*/
+
+nav {
+    width: 100%;
+    align-content: center;
+    height: 100%;
+    background-color: #96192cc7;
+}
+
+.item1 h1 {
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 12%;
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.logo {
+    margin-top: 1%;
+    margin-bottom: 0;
+    width: 35%;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5vh;
+    margin: 0;
+}
+
+div nav {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 25, 44, 0.701);
+}
+
+.navbar {
+    text-align: right;
+    height: 10%;
+    line-height: 10%;
+}
+
+.menu {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 4% 0 4%;
+    line-height: 4;
+    clear: right;
+    font-size: 2.5vh;
+}
+
+label {
+    margin: 0 10% 0 0;
+    font-size: 2vh;
+    line-height: 10%;
+    display: none;
+    width: 20%;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+nav a:hover {
+    border-bottom: solid 3px;
+    cursor: pointer;
+}
+
+nav a:visited {
+    border-bottom: solid 3px;
+}
+
+a:active {
+    border-bottom: solid 3px;
+}
+
+
+/*3 SMÅ BILLEDER*/
+
+.item2 {
+    grid-area: main;
+    margin: 12% 6% 12% 0%;
+}
+
+.item3 {
+    grid-area: middle;
+    margin: 12% 6% 12% 6%;
+}
+
+.item4 {
+    grid-area: last;
+    margin: 12% 0 12% 6%;
+}
+
+section img {
+    width: 100%;
+    height: 99%;
+}
+
+
+/*EJERENE*/
+
+.item5 {
+    grid-area: right;
+    height: 101%;
+}
+
+.ejere {
+    width: 100%;
+    margin: 0;
+}
+
+
+/*HISTORIEN*/
+
+.item6 {
+    grid-area: text;
+    background-color: #191C27;
+    height: 100%;
+}
+
+.item6 h2 {
+    color: white;
+    margin-left: 14%;
+    margin-top: 7%;
+    font-size: 3.5vh;
+}
+
+p {
+    color: white;
+    font-size: 2vh;
+    margin: 5% 14% 0 14%;
+}
+
+
+/*KOKKENE*/
+
+.item7 {
+    grid-area: left;
+    height: 101%;
+}
+
+
+/*I DAG*/
+
+.item8 {
+    grid-area: tekst;
+    background-color: #191c27;
+}
+
+.item8 h2 {
+    color: white;
+    margin-left: 14%;
+    margin-top: 7%;
+    font-size: 3.5vh;
+}
+
+
+/*MAD MED MEST*/
+
+.item9 {
+    grid-area: info;
+    margin-top: 5%;
+    background-color: #96192B;
+    padding: 4%;
+    text-align: center;
+}
+
+.item9 h1 {
+    font-size: 5vh;
+    color: white;
+    margin: 0;
+}
+
+.item9 p {
+    font-size: 4vh;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 1% 5%;
+    border: none;
+    background-color: #fffcbd;
+    box-shadow: 10px 10px 10px #00000025;
+    font-size: 2vh;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 4%;
+}
+
+
+/*FOOTER*/
+
+.item10 {
+    grid-area: footer;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+}
+
+.item10 img {
+    width: 60%;
+    margin-top: 6%;
+}
+
+.item11 {
+    grid-area: foter;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+}
+
+.item11 p {
+    margin-bottom: 10%;
+}
+
+.item12 {
+    grid-area: fot;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 3% 0 3%;
+}
+
+footer h2 {
+    font-size: 3vh;
+}
+
+
+/*IPAD VERSION*/
+
+@media (max-width: 1024px) and (min-width: 639px) {
+    .menu a {
+        margin: 0 2.5% 0 2.5%;
+        line-height: 7;
+        font-size: 1.5vh;
+    }
+    .item1 {
+        height: 1024px;
+    }
+    .item1 h1 {
+        font-size: 5vh;
+        margin-top: 50%;
+    }
+    .item6 h2 {
+        margin: 3% 4% 0 4%;
+        font-size: 2.5vh;
+    }
+    .item8 h2 {
+        margin: 3% 4% 0 4%;
+        font-size: 2.5vh;
+    }
+    .item9 h1 {
+        font-size: 3.5vh;
+    }
+    p {
+        margin: 5% 4% 6% 4%;
+        font-size: 1.4vh;
+    }
+    .item9 p {
+        font-size: 2.3vh;
+    }
+    .button1 {
+        padding: 3% 9%;
+        margin-top: 0;
+    }
+    .item10 img {
+        width: 90%;
+        margin-top: 14%;
+    }
+    footer h2 {
+        font-size: 2.2vh;
+        margin-top: 12%;
+    }
+}
+
+
+/*IPHONE X VERSION*/
+
+@media (max-width: 375px)
+/*lavet om til iphonex størrelsen, i forbindelse med min skrivning i problemløsningen under "kodning", skal det sættes tilbage til 640px, synes i?*/
+
+{
+    .gridcontainer {
+        grid-template-columns: 1fr;
+        height: auto;
+        grid-template-areas: "header" "main" "middle" "last" "text" "right" "tekst" "left" "info" "footer" "foter" "fot";
+    }
+    /*HEADER*/
+    .item1 {
+        background-image: url(images/forside/herophone.jpg);
+    }
+    div {
+        margin: 0;
+    }
+    .navbar {
+        margin-top: 7%;
+    }
+    .item1 {
+        height: 812px;
+    }
+    .logo {
+        margin: 0;
+        background-color: rgba(150, 25, 44, 0.701);
+        width: 100%;
+        padding: 4%;
+    }
+    header div h3 {
+        display: none;
+    }
+    div nav {
+        height: auto;
+        background-color: rgb(150, 25, 44);
+    }
+    label {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 6vh;
+        margin-right: 5.5%;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: absolute;
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked+.menu {
+        display: block;
+    }
+    .item1 h1 {
+        font-size: 3.2vh;
+        margin: 90% 10% 10% 10%;
+        position: static;
+    }
+    /*3 SMÅ BILLEDER*/
+    .item2,
+    .item3,
+    .item4 {
+        display: none;
+    }
+    /*HISTORIEN*/
+    .item6 h2 {
+        margin-left: 6%;
+        margin-top: 6%;
+        font-size: 3vh;
+    }
+    .item8 h2 {
+        margin-left: 6%;
+        margin-top: 6%;
+        font-size: 3vh;
+    }
+    p {
+        margin: 0 6% 6% 6%;
+    }
+    /*MAD MED MEST*/
+    .item9 {
+        margin-top: 0;
+    }
+    .item9 h1 {
+        display: none;
+    }
+    .item9 p {
+        font-size: 2vh;
+    }
+    /*KNAP*/
+    .button1 {
+        padding: 5% 15%;
+        margin-bottom: 6%;
+    }
+    /*FOOTER*/
+    footer h2 {
+        display: none;
+    }
+    .item12 {
+        padding-bottom: 6%;
+    }
+
+   
+

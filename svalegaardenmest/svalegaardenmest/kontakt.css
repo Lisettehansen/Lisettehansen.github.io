@@ -1,0 +1,472 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/*DESKTOP VERSION, 1920X1080 px*/
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header header header" "text text text left left left" "contact contact contact contact contact contact " "footer footer foter foter fot fot";
+}
+
+.gridcontainer .item2 .item3 .item4 {
+    grid-column-gap: 10%;
+    grid-row-gap: 10%;
+}
+
+
+/*FORSIDE*/
+
+.item1 {
+    grid-area: header;
+    background-image: url(images/forside/hero.jpg);
+    height: 1080px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+/*HEADER*/
+
+nav {
+    width: 100%;
+    align-content: center;
+    height: 100%;
+    background-color: #96192cc7;
+}
+
+.item1 h1 {
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 12%;
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.biglogo {
+    margin: 0 15% 0 15%;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 2% 2%;
+    border: none;
+    background-color: #fffcbd;
+    box-shadow: 10px 10px 10px #00000025;
+    font-size: 2vh;
+    color: #000000;
+    cursor: pointer;
+    margin: 4% 1% 4% 1%;
+    width: 20%;
+}
+
+.logo {
+    display: none;
+}
+
+.logo2 {
+    width: 20%;
+    float: left;
+    margin: 1.7% 0 0 1%;
+}
+
+h3 {
+    display: none;
+    color: white;
+    font-size: 2.5vh;
+    margin: 0;
+}
+
+div nav {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 25, 44, 0.701);
+}
+
+.navbar {
+    text-align: right;
+    height: 10%;
+    line-height: 10%;
+}
+
+.menu {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 4%;
+    line-height: 4;
+    clear: right;
+    font-size: 2.5vh;
+}
+
+label {
+    margin: 0 10% 0 0;
+    font-size: 2vh;
+    line-height: 10%;
+    display: none;
+    width: 20%;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+nav a:hover {
+    border-bottom: solid 3px;
+    cursor: pointer;
+}
+
+nav a:visited {
+    border-bottom: solid 3px;
+}
+
+a:active {
+    border-bottom: solid 3px;
+}
+
+
+/*ÅBNINGSTIDER*/
+
+.item2 {
+    grid-area: text;
+    background-color: #191C27;
+    height: 88.7%;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.item2 h2 {
+    line-height: 1.5;
+    color: white;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 3.5vh;
+}
+
+p {
+    line-height: 1.5;
+    color: white;
+    font-size: 2vh;
+    text-align: center;
+}
+
+
+/*KORT*/
+
+.item3 {
+    grid-area: left;
+    height: 101%;
+    margin-top: 7.7%;
+}
+
+
+/*KONTAKT METTE OG STEFAN*/
+
+#item4 {
+    grid-area: contact;
+    background-color: #96192B;
+    margin: 12% 12% 12% 12%;
+    text-align: center;
+}
+
+#item4 h2 {
+    line-height: 1.5;
+    font-size: 7vh;
+    font-weight: lighter;
+    color: white;
+}
+
+h4 {
+    font-size: 2vh;
+    margin-bottom: 10%;
+}
+
+.text {
+    color: black;
+}
+
+.input {
+    color: white;
+    font-size: 2vh;
+    text-align: start;
+    margin-left: 20%;
+}
+
+
+/*KONTAKTFORMULAR*/
+
+input[type=name],
+input[type=email],
+input[type=phone],
+textarea,
+select {
+    width: 60%;
+    padding: 1%;
+    font-size: 2vh;
+    display: inline-block;
+}
+
+
+/*BESKED*/
+
+input[type=message],
+textarea,
+select {
+    width: 60%;
+    padding: 1% 0 12% 1%;
+    font-size: 2vh;
+    display: inline-block;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 2% 2%;
+    border: none;
+    background-color: #fffcbd;
+    box-shadow: 10px 10px 10px #00000025;
+    font-size: 2vh;
+    color: #000000;
+    cursor: pointer;
+    margin: 4% 1% 4% 31%;
+    width: 20%;
+}
+
+.metteogstefan {
+    width: 30%;
+    float: right;
+}
+
+
+/*FOOTER*/
+
+.item5 {
+    grid-area: footer;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+}
+
+.item5 img {
+    width: 60%;
+    margin-top: 6%;
+}
+
+.item6 {
+    grid-area: foter;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+}
+
+.item6 p {
+    margin-bottom: 10%;
+}
+
+.item7 {
+    grid-area: fot;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 3% 0 3%;
+}
+
+footer h2 {
+    font-size: 3vh;
+}
+
+
+/*IPAD VERSION*/
+
+@media (max-width: 1024px) and (min-width: 639px) {
+    .logo {
+        display: inline-block;
+        margin-top: 1%;
+        margin-bottom: 0;
+        width: 35%;
+        text-align: center;
+    }
+    h3 {
+        display: block;
+    }
+    .logo2 {
+        display: none;
+    }
+    .menu a {
+        margin: 0 2.5% 0 2.5%;
+        line-height: 7;
+        font-size: 1.5vh;
+    }
+    .item1 {
+        height: 1024px;
+    }
+    .item1 h1 {
+        font-size: 3.5vh;
+        margin-top: 50%;
+        margin-bottom: 7%;
+    }
+    section img {
+        width: 100%;
+        height: 100%;
+    }
+    .item2 {
+        height: 100%;
+    }
+    p {
+        margin: 5% 4% 6% 4%;
+        font-size: 1.4vh;
+    }
+    .button1 {
+        padding: 3% 0%;
+        margin-top: 0;
+        width: 35%;
+    }
+    #item4 h2 {
+        font-size: 3.6vh;
+    }
+    footer h2 {
+        font-size: 2.2vh;
+        margin-top: 12%;
+    }
+    .item5 img {
+        width: 92%;
+        margin-top: 14%;
+    }
+}
+
+
+/*IPHONE X VERSION*/
+
+@media (max-width: 375px) {
+    .gridcontainer {
+        grid-template-columns: 1fr;
+        height: auto;
+        grid-template-areas: "header" "left" "text" "contact" "footer" "foter" "fot";
+    }
+    /*HEADER*/
+    div {
+        margin: 0;
+    }
+    .navbar {
+        margin-top: 7%;
+    }
+    .item1 {
+        height: 812px;
+    }
+    section img {
+        width: 70%;
+        margin: 2% 0 0 15%;
+    }
+    .logo {
+        display: block;
+        margin: 0;
+        background-color: rgba(150, 25, 44, 0.701);
+        width: 100%;
+        padding: 4%;
+        text-align: center;
+    }
+    .logo2 {
+        display: none;
+    }
+    div nav {
+        height: auto;
+        background-color: rgb(150, 25, 44);
+    }
+    label {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 6vh;
+        margin-right: 5.5%;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: absolute;
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked+.menu {
+        display: block;
+    }
+    .item1 h1 {
+        font-size: 3.2vh;
+        margin: 90% 7% 10% 7%;
+        position: static;
+    }
+    .item2 {
+        height: 93%;
+    }
+    /*KNAP 1*/
+    .button1 {
+        margin-bottom: 6%;
+        margin-top: 0;
+        width: 70%;
+    }
+    /*KONTAKTFORMULAR*/
+    #item4 h2 {
+        line-height: 1.5;
+        font-size: 2.1vh;
+        font-weight: lighter;
+        color: white;
+    }
+    .input {
+        margin: 8% 0 0 10%
+    }
+    input[type=name],
+    input[type=email],
+    input[type=phone],
+    textarea,
+    select {
+        width: 80%;
+    }
+    input[type=message],
+    textarea,
+    select {
+        width: 80%;
+    }
+    /*KNAP 2*/
+    .button2 {
+        margin-top: 6%;
+        width: 29%;
+    }
+    /*FOOTER*/
+    footer h2 {
+        display: none;
+    }
+    .item7 {
+        padding-bottom: 6%;
+    }
+}
