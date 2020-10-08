@@ -400,6 +400,9 @@ a:hover {
         font-family: 'Julius Sans One', sans-serif;
         color:black;
     }
+    .linkcase a:active {
+        color:red;
+    }
     .casepic {
         width: 20vw;
         height: vw;
