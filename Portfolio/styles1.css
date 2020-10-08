@@ -440,12 +440,12 @@ a:hover {
         height: auto;
     }
     
-    .casepic img {
+    /*.casepic img {
         width: 35vw;
         height: 25vw;
         margin: ;
         box-shadow: 5px 3px 5px grey;
-    }
+    }*/
 
     .item8 {
         display:grid;
