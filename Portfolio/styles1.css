@@ -438,14 +438,11 @@ a:hover {
         display:block;
         width: 100%;
         height: auto;
-    }
-    
-    /*.casepic img {
-        width: 35vw;
         height: 25vw;
         margin: ;
         box-shadow: 5px 3px 5px grey;
-    }*/
+    }
+    
 
     .item8 {
         display:grid;
