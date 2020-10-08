@@ -248,7 +248,7 @@ a:hover {
         border: 1px solid rgb(255, 255, 255);
 
     }
-    .img:hover .overlay1 {
+    .imgcase:hover .overlay1 {
         opacity: 1;
     }
     .overlay1 {
