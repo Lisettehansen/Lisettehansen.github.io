@@ -251,6 +251,7 @@ a:hover {
     }
     .overlay1 {
         position: absolute;
+        top:0;
         bottom: 0;
         background: rgb(0, 0, 0);
         background: rgba(0, 0, 0, 0.5); /* Black see-through */
@@ -262,6 +263,7 @@ a:hover {
         font-size: 20px;
         padding: 20px;
         text-align: center;
+        margin:7vw;
 
     }
     .container {
