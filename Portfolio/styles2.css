@@ -3,8 +3,8 @@
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  width: 30vw;
-  max-width: 50vw;
+  width: 50%;
+  max-width: 300px;
 }
 
 /* Make the image to responsive */
@@ -16,7 +16,7 @@
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
-  position: absolute;;
+  position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
