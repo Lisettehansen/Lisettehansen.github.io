@@ -250,7 +250,7 @@ a:hover {
 
     }
     .overlay1 {
-        position: ;
+        position: absolute;
         bottom: 0;
         background: rgb(0, 0, 0);
         background: rgba(0, 0, 0, 0.5); /* Black see-through */
@@ -439,6 +439,7 @@ a:hover {
         display:block;
         width: 100%;
         height: auto;
+        margin:7vw;
     }
     
     .casepic img {
