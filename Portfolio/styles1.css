@@ -247,28 +247,24 @@ a:hover {
         padding:1.5vw;
         border: 1px solid rgb(255, 255, 255);
 
-    }
-    .img:hover .overlay1 {
-        opacity: 1;
+
     }
     .overlay1 {
         position: absolute;
-        top: 0;
         bottom: 0;
-        left: 0;
-        right: 0;
-        height: 20vw;
-        width: 25vw;
-        opacity: 0;
-        margin-left: 1.5vw;
-        margin-top: 1vw;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
         transition: .5s ease;
-        background-color: rgba(0, 0, 0, 0.603);
-        padding:1.5vw;
-        border: 1px solid rgb(255, 255, 255);
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
 
     }
-    .casepic:hover .overlay {
+    .container:hover .overlay1 {
         opacity: 1;
     }
 
@@ -434,7 +430,7 @@ a:hover {
         margin:5vw;
         max-width: 300px;
     }
-    .imagecase {
+    .imgcase {
         display:block;
         width: 100%;
         height: auto;
