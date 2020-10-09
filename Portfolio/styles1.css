@@ -438,7 +438,7 @@ a:hover {
         max-width: 300px;
     }
     .imgcase {
-        display:block;
+        display:inline-block;
         width: 100%;
         height: auto;
         margin:7vw;
