@@ -644,5 +644,10 @@ a:hover {
         font-weight: 100;
         font-size: 1vw;
     
-    
+    }
+    .far fa-copyright {
+        width: 4vw;
+        height: 4vw;
+        background-color: crimson;
+    }
     
