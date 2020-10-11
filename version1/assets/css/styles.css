@@ -1,0 +1,1908 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Navigation */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    height: 13vh;
+}
+
+header nav img {
+    margin: 2vh 10vw 0 2vw;
+    width: 20vw;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    align-items: center;
+    list-style-type: none;
+    z-index: 999;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.selected {
+    color: rgb(92, 76, 148);
+}
+
+main .desktop-none {
+    display: none;
+}
+
+/* Dropdown hovermenu i navigationen */
+
+header nav ul li a:hover {
+    color: rgb(92, 76, 148);
+}
+
+header nav ul li ul {
+    display: none;
+    width: auto;
+	margin: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    position: absolute;
+    background-color: rgba(92, 76, 148, 0.85);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header nav ul li:hover ul {
+    display: block;
+    visibility: visible;
+}
+
+header nav ul li ul li a {
+	text-decoration: none;
+	padding: 1.5vh 0;
+	color: #ffffff;
+    display: block;
+}
+
+header nav ul li ul li a:hover {
+    color: #C0C0C0;
+}
+
+
+/* Resten af forside */
+
+.frontpage header {
+    position: absolute;
+}
+
+button {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1vw;
+    border: none;
+    background-color: rgb(92, 76, 148);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+footer {
+    background-color: #3B3B3B;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    'lf mf rf';
+}
+
+.icons a {
+    text-decoration: none;
+    margin: 0 0.25vw 0 0.25vw;
+}
+
+.fa-linkedin {
+    color: rgb(92, 76, 148);
+    font-size: 2vw;
+}
+
+.fa-youtube{
+    color: rgb(92, 76, 148);
+    font-size: 2vw;
+}
+
+.leftfooter {
+    grid-area: lf;
+    width: 33vw;
+}
+
+.leftfooter p {
+    padding-top: 0vh;
+}
+
+.leftfooter img {
+    margin-top: 2vh;
+}
+
+.middlefooter {
+    grid-area: mf;
+    width: 33vw;
+}
+
+.middlefooter h3 {
+    margin-bottom: 2vh;
+}
+
+.rightfooter {
+    grid-area: rf;
+    width: 33vw;
+}
+
+.rightfooter p {
+    padding-top: 3vh;
+}
+
+.rightfooter h3 {
+    margin-top: 4vh;
+}
+
+footer div {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Styling for forside starter her */
+
+/* Styling for header starter her */
+
+.logo {
+    width: 7vw;
+}
+
+/* Styling for baggrundsbillede starter her */
+
+#backgroundimage {
+    height: 100vh;
+    padding: 30vh 0 0 58vw;
+    text-align: center;
+    background-image: url("../images/Hero.jpg");
+    background-size: cover;
+}
+
+#backgroundimage h1 {
+    font-size: 5vw;
+    margin-bottom: 1vh;
+    margin-right: 10vw;
+    color: white;
+}
+
+#backgroundimage h2 {
+    font-size: 1.5vw;
+    color: white;
+    margin: 0;
+    margin-right: 3.5vw;
+}
+
+/* Styling for midterste del af forside starter her */
+
+#top {
+    height: 50vh;
+    background-color: rgb(92, 76, 148);
+    text-align: center;
+}
+
+#top h2 {
+    padding-top: 17vh;
+    font-size: 2.5vw;
+    text-shadow: 1.5px 1.5px rgb(34, 34, 34);
+    color: white;
+}
+
+.flexbox {
+    display: flex;
+}
+
+/* Styling for den vestre side af den midterste del starter her */
+
+#left {
+    width: 50vw;
+    height: 50vh;
+    background-color: #3B3B3B;
+    text-align: left;
+    padding-left: 8vw;
+}
+
+#left h2 {
+    margin-top: 8vh;
+    font-size: 3vw;
+    color: white;
+}
+
+#left p {
+    margin-top: 5vh;
+    font-size: 1.2vw;
+    font-weight: normal;
+    color: white;
+    width: 30vw;
+    line-height: 2vw;
+}
+
+
+/* Styling for den højre side af den midterste del starter her */
+
+#map {
+    width: 50vw;
+    height: 50vh;
+    background-color: grey;
+}
+
+/* Styling for nyhedsbrev og footer på forsiden starter her */
+
+#nyhedsbrev {
+    text-align: center;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#nyhedsbrev h2 {
+    font-size: 3vw;
+    color: white;
+
+}
+
+#nyhedsbrev #label {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    color: rgb(92, 76, 148);
+    font-weight: bold;
+}
+
+#nyhedsbrev input {
+    margin: 1vh 0 5vh 0;
+    width: 15vw;
+    height: 4vh;
+    font-size: 1vw;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 1vw;
+}
+
+#nyhedsbrev .video-news {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#nyhedsbrev .video-news video {
+    width: 100vw;
+    height: 100%;
+    filter: grayscale(100%) brightness(40%);
+}
+
+.arrangeforward {
+    z-index: 1;
+}
+
+/* Styling for loesninger.html starts here */
+
+.highlight {
+    color: white;
+}
+
+/* Styling for Løsninger boxes starts here */
+
+.bodyloesninger {
+    background-color: #C0C0C0;
+}
+
+.grid section {
+    height: 40vh;
+    width: 25vw;
+    background-color: white;
+    margin-top: 10vh;
+}
+
+.preview {
+    width: inherit;
+}
+
+.videobox {
+    overflow: hidden;
+}
+
+.videotext {
+    padding: 2vh 0 0 1vw;
+    background-color: rgb(92, 76, 148);
+    color: white;
+}
+
+.videotext h1 {
+    margin-bottom: 2vh;
+}
+
+.video-container .grayscale-filter {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: filter 250ms;
+}
+ 
+.video-container:hover .grayscale-filter {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.shadow {
+    box-shadow: 3px 3px 15px #888888;
+    transition: transform .2s;
+    
+}
+
+.shadow:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.adressering {
+    grid-area: tl;
+}
+
+.foliering {
+    grid-area: tm;
+}
+
+.kuvertering {
+    grid-area: tr;
+}
+
+.databehandling {
+    grid-area: ml;
+}
+
+.fulfillment {
+    grid-area: mm;
+}
+
+.haandpakning {
+    grid-area: mr;
+}
+
+.papirindpakning {
+    grid-area: bl;
+}
+
+.print {
+    grid-area: bm;
+}
+
+.segmentering {
+    grid-area: br;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'tl tm tr'
+    'ml mm mr'
+    'bl bm br';
+}
+
+.bodyloesninger section div {
+    height: 20vh;
+    width: 25vw;
+}
+
+.bodyloesninger footer {
+    margin-top: 20vh;
+}
+
+/* Styling for case.html starter her */
+
+.bodycase {
+    background-color: #C0C0C0;
+}
+
+.cases {
+    margin-top: 10vh;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: 
+    'tl tr'
+    'bl br';
+}
+
+.bghunden {
+    grid-area: tl;
+}
+
+.bgaeldresagen {
+    grid-area: tr;
+}
+
+.bgskiltemagasinet {
+    grid-area: br;
+}
+
+.bgjaeger {
+    grid-area: bl;
+}
+
+.hoverandclick:hover {
+    transform: scale(1.05);
+    transition: transform .25s;
+    cursor: pointer;
+}
+
+.casebox {
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(92, 76, 148);
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.caseboximg {
+    height: 30vh;
+    background-size: cover;
+    background-position: center 35%;
+
+}
+
+.casebox-bg-hunden {
+    background-image: url(../images/hunden.jpg);
+}
+
+.casebox-bg-aeldresagen {
+    background-image: url(../images/ældresagen.jpg);
+}
+
+.casebox-bg-jaeger {
+    background-image: url(../images/jægerblad.jpg);
+}
+
+.casebox-bg-skiltemagasinet {
+    background-image: url(../images/impulsblad.jpg);
+}
+
+
+.caseboxtext {
+    height: 10vh;
+    margin-top: 2.5vh;
+    font-size: 1vw;
+    color: white;
+}
+
+
+
+/* Styling for kontakt.html starter her */
+
+.bodykontakt {
+    background-color: #C0C0C0;
+}
+
+.kontakttop {
+    width: 100vw;
+    height: 30vh;
+    background-color: #3B3B3B;
+    color: white;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    font-size: 1.4vw;
+}
+
+.kontaktgrid {
+    display: grid;
+    grid-template-areas: 
+    'tl tm tr'
+    'ml mm mr'
+    'bl bm br'
+    'bl bm2 br2';
+    line-height: 2vw;
+    justify-content: space-evenly;
+    margin: 5vh 0 5vh 0;
+}
+
+.kontaktgrid h2 {
+    color: rgb(92, 76, 148);
+}
+
+
+.kontaktgrid p {
+    margin: 0;
+    padding: 0;
+}
+
+.bold p:first-of-type {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.topright {
+    grid-area: tr;
+}
+
+.topmid {
+    grid-area: tm;
+    margin-bottom: 5vh;
+}
+
+.topleft {
+    grid-area: tl;
+}
+
+.midleft {
+    grid-area: ml;
+
+}
+
+.midmid {
+    grid-area: mm;
+    margin-bottom: 5vh;
+}
+
+.midright {
+    grid-area: mr;
+
+}
+
+.botleft {
+    grid-area: bl;
+
+}
+
+.botmid {
+    grid-area: bm;
+    margin-bottom: 5vh;
+
+}
+
+.botright {
+    grid-area: br;
+
+}
+
+.botmid2 {
+    grid-area: bm2;
+
+}
+
+.botright2 {
+    grid-area: br2;
+
+}
+
+.contactwrapper {
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.formular {
+    display: inline-block;
+    background-color: rgb(92, 76, 148);
+    width: 60vw;
+}
+
+.formular h3 {
+    color: white;
+    font-size: 2vw;
+    margin: 5vh 0 5vh 0;
+}
+
+.formular form label {
+    display: block;
+    text-align: left;
+    margin-left: 5vw;
+    margin-bottom: 0.3vh;
+    color: white;
+}
+
+.formular form input {
+    width: 50vw;
+    height: 5vh;
+    margin-bottom: 2vh;
+    padding-left: 1vw;
+
+}
+
+.formular form input:last-of-type {
+    height: 20vh;
+    padding-bottom: 15vh;
+}
+
+.formular button {
+    background-color: #3B3B3B;
+    margin: 2vh 0 5vh 0;
+    height: 5vh;
+    width: 10vw;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+/* Styling for ate.html starter her */
+
+.bodyate {
+    background-color: #C0C0C0;
+}
+
+.topate {
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: #3B3B3B;
+    color: white;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+
+.topate h1 {
+    font-size: 2em;
+    width: 100vw;
+}
+
+.ateinfo {
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    width: 90vw;
+    background-color: white;
+}
+
+.ateinfo p {
+    color: black;
+    margin: 0;
+    line-height: 3vh;
+    width: 70vw;
+}
+
+.ateinfo h2 {
+    color: rgb(92, 76, 148);
+    padding-top: 5vh;
+    margin-bottom: 5px;
+}
+
+.ateinfo ul {
+    line-height: 3vh;
+    margin-left: 1vw;
+}
+
+.margin {
+    margin-left: 5vw;
+}
+
+/* Styling for popup vinduer på case.html starter her */
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    z-index: 10;
+    width: 80vw;
+    max-width: 90vw;
+    height: 80vh;
+}
+
+.popup-bg-hunden {
+    background-image: url(../images/hundenbg.jpg);
+    background-size: cover;
+}
+
+.popup-bg-aeldresagen {
+    background-image: url(../images/ældresagenbg.jpg);
+    background-size: cover;
+}
+
+.popup.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-header .title {
+    font-size: 3vw;
+    font-weight: bold;
+    margin: auto;
+    color: white;
+    margin-top: 4vh;
+}
+
+.popup-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 4vw;
+    color: white;
+    margin-top: 2vh;
+}
+
+.popup-body {
+    padding: 1vw 1.5vw;
+}
+
+.popup-image img {
+    height: 50vh;
+    margin: 5vh 10vw 0 0;
+}
+
+.casesize {
+    margin: auto;
+    width: 40vw;
+    height: 40vh;
+}
+
+.casesize h2,p {
+    margin-bottom: 5vh;
+    color: white;
+}
+
+.casesize h2 {
+    font-size: 1.5vw;
+}
+
+.casesize p {
+    font-size: 1.1vw;
+}
+
+/* Styling for popup vinduer for loesninger.html starter her */
+
+
+/* Styling for popup adressering starter her */
+
+#popupadressering {
+    background-color: white;
+    overflow: scroll;
+}
+
+.popup-bg-adressering {
+    background-image: url(../images/adresseringbanner.jpg);
+    background-size: inherit;
+    height: 20vh;
+}
+
+.popup-bg-adressering .title {
+    margin: 6vh auto 0 30vw;
+}
+
+.popup-loesninger-text p,h2 {
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 2vh;
+    
+}
+
+.popup-loesninger-text h2 {
+    color: rgba(92, 76, 148, 1);
+    font-size: 2vw;
+    margin-top: 4vh;
+}
+
+.popup-video {
+    background-color: grey;
+    width: 50vw;
+    height: 50vh;
+    margin: 6vh auto 6vh auto;
+}
+
+.popup-video video {
+    width: 50vw;
+}
+
+.popup-advantages {
+    width: 12.5vw;
+    height: 20vh;
+    background-color: rgba(92, 76, 148, 0.8);
+    margin: auto;
+    padding: 1.5vw;
+}
+
+.popup-advantages p {
+    color: white;
+}
+
+.popup-h3-centered {
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 6vh;
+}
+
+/* Styling for popup foliering starter her */
+
+#popupfoliering {
+    background-color: white;
+    overflow: scroll;
+}
+
+.popup-bg-foliering {
+    background-image: url(../images/foliering.jpg);
+    background-size: inherit;
+    height: 20vh;
+}
+
+.popup-bg-foliering .title {
+    margin: 6vh auto 0 30vw;
+}
+
+
+/* Styling for omos.html starter her */
+
+.bodyomos {
+    background-color: #C0C0C0;
+}
+
+.bodyomos header {
+    position: absolute;
+    z-index: 5;
+}
+
+.omos-banner {
+    background-image: url(../images/omoshero.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.omos-missionandvision {
+    width: 100%;
+    height: 40vh;
+    background-color: #5C4C94;
+    color: white;;
+}
+
+.omos-missionandvision div {
+    width: 40vw;
+    height: 40vh;
+    margin: 5vh auto;
+    line-height: 2;
+}
+
+.omos-missionandvision h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.omos-missionandvision p {
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.history {
+    margin: 0 5vw 0 5vw;
+}
+
+.history h2 {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 10vh auto 0 auto;
+}
+
+.history h3 {
+    color: #5C4C94;
+    font-size: 2vw;
+    margin: 10vh 0 3vh 0;
+}
+
+.history p {
+    color: black;
+    font-size: 1vw;
+    line-height: 2;
+    margin: 0;
+    width: 90vw;
+}
+
+.history ul {
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+    line-height: 2;
+    font-style: oblique;
+}
+
+.timelinewrapper {
+    text-align: center;
+    margin-bottom: 5vh;
+    width: 100vw;
+}
+
+.timeline-center {
+    display: inline-block;
+    position: relative;
+}
+
+.timeline-margin {
+    margin-left: 5vw;
+}
+
+.timeline-center h3 {
+    margin-bottom: 5vh;
+    color: rgb(92, 76, 148);
+    font-size: 2vw;
+}
+
+.timeline-border {
+    height: 86%;
+    width: 50%;
+    position: absolute;
+    border-right: 5px solid rgb(92, 76, 148);
+    margin: 0;
+}
+
+.dot-top {
+    background: rgb(92, 76, 148);
+    height: 20px;
+    width: 20px;
+    right: -12px;
+    top: 0;
+    position: absolute;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-bottom {
+    background: rgb(92, 76, 148);
+    height: 20px;
+    width: 20px;
+    right: -12px;
+    bottom: 0;
+    position: absolute;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.timeline-singleborder {
+    border-bottom: 3px solid rgb(92, 76, 148);
+    margin-right: 10vw;
+}
+
+.border-left {
+    margin-left: 30vw;
+    width: 25vw;
+}
+
+.border-right {
+    margin-right: 25vw;
+    width: 30vw;
+}
+
+.timeline-singleborder h4 {
+    color: rgb(92, 76, 148);
+    font-size: 1.2vw;
+    margin-bottom: 0.5vh;
+}
+
+.timeline-singleborder h5 {
+    color: white;
+    font-size: 1vw;
+    margin-bottom: 0.5vh;
+}
+
+ /* Hentet inspiration og hjælp fra lektion med DAHG (workshop) i forhold til navigationens burgermenu på mediaqueries */
+
+#burgerMenuButtonWrapper,
+#burgermenuCloseButtonWrapper {
+	display: none;
+}
+
+/* Styling for tablet version starter her */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Generelt */
+
+    .desktop-none {
+        display: block;
+        position: absolute;
+        margin: 1vh 0 0 2vw;
+    }
+
+    .none {
+        display: none;
+    }
+
+    main .desktop-none {
+        display: block;
+        position: fixed;
+        top: 0;
+        margin-top: 1vh;
+        position: fixed;
+    }
+
+    /* Burgermenu */
+
+    .selected {
+        color: white;
+    }
+
+    .btn {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: rgb(92, 76, 148);
+        border-radius: 10%;
+        height: 5vh;
+        width: 10vw;
+        text-align: center;
+        padding-top: 0.5vh;
+        color: white;
+        transition: box-shadow .2s ease-out;
+    }
+
+    .btn-close {
+        color: rgb(92, 76, 148);
+        background-color: white;
+        font-weight: bold;
+    }
+
+    #burgerMenuButtonWrapper {
+		display: block;
+		text-align: right;
+		position: fixed;
+        width: 40vw;
+        top: 0;
+        margin-top: 1vh;
+        margin-left: 58vw;
+	}
+	
+	#burgerMenuButtonWrapper a {
+		display: inline-block;
+		margin: 2vw;
+	}
+	
+	#burgermenuCloseButtonWrapper {
+		display: block;
+        text-align: right;
+        margin-right: 2vw;
+        margin-left: 5vw;
+        margin-top: 1vh;
+	}
+
+	#burgermenuCloseButtonWrapper a {
+		display: inline-block;
+        margin: 2vw;
+    }
+
+    .omosheader {
+        height: 10vh;
+        width: 80vw;
+        background-color: #C0C0C0;
+        margin-left: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    footer .logo {
+        display: block;
+        margin-left: 10vw;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+	header nav {
+		background-color: rgb(92, 76, 148);
+        width: 100vw;
+        height: 100vh;
+		z-index: 1;
+		transform: translateX(100%);
+		transition: transform .3s ease-out;
+        position: fixed;
+        top: 0;
+	}
+	
+	header nav.active {
+		transform: translateX(0);
+	}
+
+	header nav ul {
+		display: block;
+        width: 100vw;
+	}
+
+	header nav ul li {
+        display: block;
+        border-top: 2px solid white;
+    }
+    
+    header nav ul li:first-of-type {
+        border: none;
+    }
+
+	header nav ul li:last-child {
+		border-bottom: 2px solid white;
+	}
+
+	header nav ul li a {
+		display: block;
+        padding: 5vw;
+        font-size: 3vw;
+	}
+	
+	header nav ul li:hover ul {
+		position: relative;
+		display: block;
+        width: 100vw;
+    }
+
+    header nav ul li a:hover {
+        color: #C0C0C0;
+    }
+    
+    header nav ul li ul {
+        display: none !important; 
+    }
+
+    /* Forside */
+    /* Styling for index.html (tablet) starter her */
+
+    #backgroundimage {
+        width: 100vw;
+        height: 55vh;
+        padding: 12vh 0 0 25vw;
+    }
+
+    #backgroundimage h1 {
+        font-size: 60px;
+    }
+
+    #backgroundimage h2 {
+        display: none;
+    }
+    
+    #top {
+        display: none;
+    }
+
+    #left {
+        background-color: #C0C0C0;
+        padding: 0;
+    }
+
+    #left h2 {
+        margin: 0;
+        color: rgb(92, 76, 148);
+        font-size: 36px;
+        margin: 2vh;
+    }
+
+    #left p {
+        margin: 2vh;
+        width: 40vw;
+        color: black;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    #left button {
+        margin-left: 2vh;
+        margin-bottom: 2vh;
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .flexbox #left,#map {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    #nyhedsbrev {
+        display: none;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .icons i {
+        font-size: 50px;
+    }
+
+    /* Styling for loesninger.html (tablet) starter her */
+
+    .loesningerframe .video-container {
+        background-color: rgb(92, 76, 148);
+        font-size: 4vw;
+    }
+
+    .videotext h1 {
+        color: white;
+    }
+
+    .loesningerframe {
+        display: block;
+        width: 90vw;
+    }
+
+    .loesningerframe section {
+        width: 90vw;
+        height: 30vh;
+        margin: 5vh auto 5vh auto;
+    }
+
+    .videobox {
+        display: none;
+    }
+
+    .videotext {
+        background: none;
+        color: black;
+    }
+
+    .videotext p {
+        display: none;
+    }
+
+    /* Styling for loesninger.html (tablet) pop-up vinduer starter her */
+
+    .popup-header .close-button {
+        font-size: 10vw;
+        margin-right: 3vw;
+    }
+
+    .popup-loesninger-text {
+        font-size: 24px;
+        margin-left: 2vw;
+    }
+
+    .popup-loesninger-text h2 {
+        font-size: 40px;
+    }
+
+    .popup-video {
+        display: none;
+    }
+
+    .advantages {
+        display: none;
+    }
+
+    /* Styling for case.html (tablet) starter her */
+
+    .cases {
+        display: block;
+    }
+
+    .cases section {
+        width: 90vw;
+        height: 30vh;
+        margin: 0 auto 5vh auto ;
+    }
+
+    .caseboxtext h1 {
+        font-size: 60px;
+        position: relative;
+        bottom: 21.5vh;
+    }
+
+    /* Styling for case.html (tablet) pop-up vinduer starter her */
+
+    .popup-header .title {
+        margin-left: 3vw;
+        font-size: 60px;
+    }
+
+    .popup-body {
+        display: block;
+    }
+
+    .popup {
+        overflow: scroll;
+    }
+
+    .casesize {
+        margin: 3vh 0 0 2vw;
+    }
+
+    .casesize h2{
+        font-size: 36px;
+        width: 70vw;
+    }
+
+    .casesize p {
+        font-size: 24px;
+        width: 70vw;
+    }
+
+    .popup-image {
+        display: none;
+    }
+
+    /* Styling for omos.html (tablet) starter her */
+
+    .omos-banner {
+        display: none;
+    }
+
+    .omos-missionandvision {
+        display: block;
+        height: 40vh;
+    }
+
+    .omos-missionandvision div {
+        width: 80vw;
+        margin: auto;
+        height: 15vh;
+    }
+
+    .omos-missionandvision p {
+        font-size: 2vw;
+    }
+
+    .history h2 {
+        margin-top: 5vh;
+        font-size: 40px;
+    }
+
+    .history h3{
+        margin-top: 5vh;
+        font-size: 30px;
+    }
+
+    .history p {
+        font-size: 16px;
+    }
+
+    /* Styling for kontakt.html (tablet) starter her */
+
+    .kontakttop h1 {
+        font-size: 50px;
+        margin-bottom: 2vh;
+    }
+
+    .kontakttop p {
+        font-size: 24px;
+    }
+
+    .kontaktgrid {
+        display: grid;
+        grid-template-areas: 
+        'tr tl'
+        'tm ml'
+        'mr mm'
+        'br bm'
+        'br2 bm2'
+        'bl bl';
+    }
+
+    .kontaktgrid div h2 {
+        margin-top: 2vh;
+    }
+
+    .kontaktgrid div p {
+        color: black;
+        margin-bottom: 2vh;
+    }
+}
+
+
+/* Styling for mobile version starter her */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* Burgermenu */
+
+    .desktop-none {
+        display: block;
+        position: fixed;
+        margin: 1vh 0 0 2vw;
+    }
+
+    main .desktop-none {
+        display: block;
+        position: absolute;
+        top: 0;
+        margin-top: 1vh;
+        position: fixed;
+    }
+
+    .btn {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        background-color: rgb(92, 76, 148);
+        border-radius: 10%;
+        height: 5vh;
+        width: 15vw;
+        text-align: center;
+        padding-top: 1vh;
+        color: white;
+        transition: box-shadow .2s ease-out;
+    }
+
+    .btn-close {
+        color: rgb(92, 76, 148);
+        background-color: white;
+        padding-top: 1vh;
+        font-weight: bold;
+    }
+
+    #burgerMenuButtonWrapper {
+		display: block;
+		text-align: right;
+		position: fixed;
+        width: 40vw;
+        top: 0;
+        margin-top: 1vh;
+        margin-left: 58vw;
+	}
+	
+	#burgerMenuButtonWrapper a {
+		display: inline-block;
+		margin: 2vw;
+	}
+	
+	#burgermenuCloseButtonWrapper {
+		display: block;
+        text-align: right;
+        margin-right: 2vw;
+        margin-left: 5vw;
+        margin-top: 1vh;
+	}
+
+	#burgermenuCloseButtonWrapper a {
+		display: inline-block;
+		margin: 2vw;
+    }
+
+    .omosheader {
+        height: 10vh;
+        width: 80vw;
+        background-color: #C0C0C0;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+	header nav {
+        background-color: rgb(92, 76, 148);
+        width: 100vw;
+        height: 100vh;
+		z-index: 1;
+		transform: translateX(100%);
+		transition: transform .3s ease-out;
+        position: fixed;
+        top: 0;
+	}
+	
+	header nav.active {
+		transform: translateX(0);
+	}
+
+	header nav ul {
+		display: block;
+		width: 100vw;
+	}
+
+	header nav ul li {
+        display: block;
+        border-top: 1px solid white;
+    }
+    
+    header nav ul li:first-of-type {
+        border: none;
+    }
+
+	header nav ul li:last-child {
+		border-bottom: 1px solid white;
+	}
+
+	header nav ul li a {
+		display: block;
+        padding: 5vw;
+        font-size: 3vw;
+	}
+	
+	header nav ul li:hover ul {
+		position: relative;
+		display: block;
+		width: 100vw;
+	}
+	
+	header nav ul li ul li a {
+		padding: 5vw 0 5vw 10vw;
+    }
+    
+    header nav ul li a:hover {
+        color: #C0C0C0;
+    }
+    
+    header nav ul li ul {
+        display: none !important; 
+    }
+
+    .desktop-none {
+        display: block;
+        position: absolute;
+        margin: 1vh 0 0 2vw;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .desktop-none {
+        display: block;
+    }
+
+    /* Styling for index.html (mobile) starter her */
+
+    header nav ul {
+        display: block;
+    }
+
+    .selected {
+        color: white;
+    }
+
+    #backgroundimage {
+        width: 100vw;
+        height: 35vh;
+        padding: 12vh 0 0 25vw;
+    }
+
+    #backgroundimage h1 {
+        font-size: 30px;
+    }
+
+    #backgroundimage h2 {
+        display: none;
+    }
+    
+    #top {
+        display: none;
+    }
+
+    .indexbody .flexbox {
+        display: block;
+    }
+
+    #left {
+        width: 100vw;
+        padding: 0;
+        height: 20vh;
+    }
+
+    #left h2 {
+        padding-top: 1vh;
+        padding-left: 10vw;
+        margin: 0;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    #left p {
+        padding-top: 1vh;
+        padding-left: 10vw;
+        width: 80vw;
+        font-size: 12px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    #left button {
+        margin-top: 2vh;
+        margin-left: 10vw;
+        width: 30vw;
+        font-size: 11px;
+        border-radius: 100px;
+    }
+
+    #map {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    #nyhedsbrev {
+        display: none;
+    }
+
+    footer {
+        height: 15vh;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
+
+    .leftfooter,.middlefooter,.rightfooter {
+        height: 15vh;
+        width: 33.3vw;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    footer .logo {
+        display: block;
+        margin-left: 10vw;
+    }
+
+    .icons i {
+        font-size: 30px;
+    }
+
+    .middlefooter {
+        padding-top: 4vh;
+    }
+
+    footer h3 {
+        font-size: 11px;
+    }
+
+    /* Styling for loesninger.html (mobile) starter her */
+
+    .loesningerframe .video-container {
+        background-color: rgb(92, 76, 148);
+        font-size: 4vw;
+    }
+
+    .videotext h1 {
+        color: white;
+    }
+
+    .loesningerframe {
+        display: block;
+        width: 90vw;
+    }
+
+    .loesningerframe section {
+        width: 90vw;
+        height: 20vh;
+        margin: 5vh auto 5vh auto;
+    }
+
+    .videobox {
+        display: none;
+    }
+
+    .videotext {
+        background: none;
+        color: black;
+    }
+
+    .videotext p {
+        display: none;
+    }
+
+    /* Styling for loesninger.html (mobile) pop-up vinduer starter her */
+
+    .popup {
+        width: 90vw;
+    }
+
+    .popup-header {
+        height: 10vh;
+    }
+
+    .popup-header .close-button {
+        font-size: 16vw;
+        margin: 0 5vw 0 0;
+    }
+
+    .popup .title {
+        font-size: 30px;
+        margin: 2.5vh 0 0 5vw;
+    }
+
+    .popup-loesninger-text {
+        font-size: 16px;
+        margin-left: 2vw;
+    }
+
+    .popup-loesninger-text h2 {
+        font-size: 24px;
+        color: black;
+    }
+
+    .popup-video {
+        display: none;
+    }
+
+    .advantages {
+        display: none;
+    }
+
+    /* Styling for case.html (mobile) starter her */
+
+    .cases {
+        display: block;
+    }
+
+    .cases section {
+        width: 90vw;
+        height: 30vh;
+        margin: 0 auto 5vh auto ;
+    }
+
+    .caseboxtext h1 {
+        font-size: 40px;
+        position: relative;
+        bottom: 20vh;
+    }
+
+    /* Styling for case.html (mobile) pop-up vinduer starter her */
+    
+    .popup-body {
+        display: block;
+    }
+
+    .popup {
+        overflow: scroll;
+    }
+
+    .casesize {
+        margin: 3vh 0 0 2vw;
+    }
+
+    .casesize h2{
+        font-size: 24px;
+        width: 70vw;
+    }
+
+    .casesize p {
+        font-size: 16px;
+        width: 70vw;
+    }
+
+    .popup-image {
+        display: none;
+    }
+
+
+    /* Styling for omos.html (mobile) starter her */
+
+    .omos-banner {
+        display: none;
+    }
+
+    .omos-missionandvision {
+        display: block;
+        height: 55vh;
+    }
+
+    .omos-missionandvision div {
+        width: 80vw;
+        margin: auto;
+        height: 25vh;
+    }
+
+    .omos-missionandvision h1 {
+        font-size: 24px;
+        padding-top: 0vh;
+        margin: 0;
+    }
+
+    .omos-missionandvision p {
+        font-size: 3vw;
+        padding-bottom: 5vh;
+    }
+
+    .timelinewrapper {
+        display: none;
+    }
+
+    .history h2 {
+        margin-top: 5vh;
+        font-size: 40px;
+    }
+
+    .history h3{
+        margin-top: 5vh;
+        font-size: 30px;
+    }
+
+    .history p {
+        font-size: 20px;
+    }
+
+    /* Styling for kontakt.html (tablet) starter her */
+
+    .kontakttop h1 {
+        font-size: 30px;
+        margin-bottom: 2vh;
+    }
+
+    .kontakttop p {
+        font-size: 20px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .kontaktgrid {
+        display: grid;
+        grid-template-areas: 
+        'tr tl'
+        'tm ml'
+        'mr mm'
+        'br bm'
+        'br2 bm2'
+        'bl none';
+    }
+
+    .bold {
+        width: 46vw;
+        margin: auto;
+    }
+
+    .kontaktgrid div h2 {
+        margin-top: 2vh;
+        font-size: 16px;
+    }
+
+    .kontaktgrid div p {
+        color: black;
+        margin-bottom: 2vh;
+        font-size: 10px;
+    }
+
+    .rightfooter p {
+        padding: 0;
+        margin-top: 2vh;
+        margin-bottom: 0;
+    }
+
+    .leftfooter p {
+        margin-bottom: 0;
+    }
+}
