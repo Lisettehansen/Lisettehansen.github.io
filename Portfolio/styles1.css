@@ -24,7 +24,6 @@ background-color: white;
     grid-area: item1;
     background-color: rgb(255, 255, 255);
     grid-column-start: 1;
-    grid-column-end: ;
     grid-row-start: 1;
     grid-row-end:1;
     padding: 10px 16px;
@@ -65,7 +64,6 @@ background-color: white;
 .name a {
     color:rgb(0, 0, 0);
     padding: 3vw 5vw 0vw 0vw;
-    float: ;
     font-family: 'Manrope', sans-serif;
     font-family: 'Julius Sans One', sans-serif;
 
@@ -94,9 +92,7 @@ a:hover {
 
 .item2{
     grid-area: item2;
-   ;
     grid-column-start: 1;
-    grid-column-end:;
     text-align: center;
     font-size:1.5vw;
     padding:8vw 0vw 0vw 3vw;
@@ -154,19 +150,12 @@ a:hover {
 }
 
 .pic {
-    /*background-color:#ffffff;*/
     margin-top: 2vw;
-    margin-right: ;
-    /*border: 6px solid #ffffff;*/
-   
-    /*margin-left:10vw;*/
     
 }
 
 .item4 {
     grid-area: item4;
-    
-    /*padding:7vw;*/
     padding-top: 3vw;
     padding-left: 4vw;
     padding-right: 4vw;
@@ -278,7 +267,6 @@ a:hover {
     .text1 {
         text-align: center;
         margin-top: 6vw;
-        padding-top: ;
         padding-left: -2vw;
         font-size: 2vw;
         font-family: 'Raleway', sans-serif;
@@ -383,13 +371,11 @@ a:hover {
 
     .infotext {
         width: 50vw;
-        height: ;
         padding-top: 3vw;
         /*border: 1px solid black;*/
         padding-left: 5vw;
         padding-right: 5vw;
         margin: 4vw;
-        background-color:;
     }
     .infotext h1 {
         font-family: 'Julius Sans One', sans-serif;
@@ -450,16 +436,13 @@ a:hover {
     .casepic img {
         width: 35vw;
         height: 25vw;
-        margin: ;
         box-shadow: 5px 3px 5px grey;
     }
 
     .item8 {
         display:grid;
         grid-area: item8;
-        background-color:;
         text-align: center;
-        height: ;
         font-size: 3vw;
         margin-top:3vw;
         
@@ -509,7 +492,6 @@ a:hover {
         grid-area: item11;
         margin:3vw 3vw 0vw 3vw;
         border-bottom: 3px solid rgb(227, 221, 233);
-        padding-top: ;
         padding-bottom: 3vw;
     }
     .item11 h5 {
@@ -536,12 +518,9 @@ a:hover {
     }
 
     .item13 {
-        display: ;
         grid-area: item13;
         margin:3vw 3vw 0vw 3vw;
         border-bottom: 3px solid rgb(227, 221, 233);
-        padding-top: ;
-        padding-bottom: ;
         
     }
     .item13 p {
@@ -556,7 +535,6 @@ a:hover {
     .item14 {
         display: grid;
         grid-area:item14;
-        height:;
      
     }
     .sketchmusic img {
@@ -575,10 +553,9 @@ a:hover {
     .item15 {
         display: grid;
         grid-area: item15;
-        margin:3vw 3vw 0vw 3vw;
-        
+        margin:3vw 3vw 0vw 3vw;   
         padding-top: 3vw;
-        padding-bottom: ;
+
 
     }
 
