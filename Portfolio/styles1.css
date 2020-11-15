@@ -655,6 +655,7 @@ a:hover {
         .item3 img {
             box-shadow: none;
             border: darkmagenta;
+            border-width: 3vw;
         }
         .boxpic {
             display: none;
