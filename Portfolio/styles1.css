@@ -643,6 +643,18 @@ a:hover {
 
         }
 
+        .grid {
+            display: grid;
+            grid-template-columns: 25% 25% auto 25%;
+            grid-template-rows: 20% 95% 90%;
+            height:600px;
+            grid-template-areas:
+            "item1 item1 item1 item1"
+            "item2 item2 item2 item2"
+            "item4 item4 item4 item4"
+            "item5 item5 item5 item5";
+        }
+
 
     }
     
