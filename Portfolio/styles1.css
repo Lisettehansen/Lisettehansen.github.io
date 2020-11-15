@@ -642,9 +642,15 @@ a:hover {
             display: block;
 
         }
+        .item2 {
+            margin-left:25vw;
+        }
 
         .item3 {
             padding-left:25vw;
         }
+
+
+
     }
     
