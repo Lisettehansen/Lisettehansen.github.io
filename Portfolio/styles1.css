@@ -654,8 +654,9 @@ a:hover {
         .item3 img {
             box-shadow: none;
             border: darkmagenta;
-            border-width: 3vw;
+            border-width: 1vw;
             border-style: solid;
+            margin-top: 3vw;
         }
         .boxpic {
             display: none;
