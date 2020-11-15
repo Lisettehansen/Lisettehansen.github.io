@@ -649,6 +649,8 @@ a:hover {
 
         .item3 {
             padding-left:25vw;
+            background-color: darkgoldenrod;
+            box-shadow: none;
         }
         .item4 {
             padding-top: 10vw;
