@@ -649,13 +649,13 @@ a:hover {
 
         .item3 {
             padding-left:25vw;
-            background-color: #FFF9F6;
-          
+            
         }
         .item3 img {
             box-shadow: none;
             border: darkmagenta;
             border-width: 3vw;
+            border-style: solid;
         }
         .boxpic {
             display: none;
