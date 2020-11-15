@@ -631,4 +631,13 @@ a:hover {
         height: 4vw;
         background-color: crimson;
     }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        
+        header nav ul {
+            display: block;
+        }
+
+
+    }
     
