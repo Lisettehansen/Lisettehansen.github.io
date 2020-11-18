@@ -714,7 +714,7 @@ a:hover {
         font-size: 150px;
         color: var(--primary-color);
         transform: translateY(-600px);
-        animation: 3s slideIn ease-in-out forwards 3s;
+        animation: 0.3s slideIn ease-in-out forwards 0.3s;
         z-index: 10;
         opacity: 0;
         position: relative;
