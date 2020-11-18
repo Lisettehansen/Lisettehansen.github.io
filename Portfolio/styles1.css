@@ -195,8 +195,8 @@ a:hover {
 }
 .cases {
     column-count: 3;
-    padding-left:5vw;
-    padding:4vw;
+    padding-left:;
+    padding:;
     /*border: 3px solid#d1d1d1;*/
    
 
@@ -215,7 +215,7 @@ a:hover {
     column-count: 3;
     width: 34vw;
    height: 26vw;
-    margin-right: 10vw;
+    margin-right:;
     margin-left:;
     margin-top: 3vw;
     box-shadow:  5px 2px rgba(143, 143, 143, 0.2);
