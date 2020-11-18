@@ -707,7 +707,7 @@ a:hover {
       }
       
       h1::before {
-          content: '';
+          content: ;
           width: 0%;
           height: 76px;
           background-color: var(--secondary-color);
