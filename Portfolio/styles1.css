@@ -712,7 +712,6 @@ a:hover {
       
       h1 {
         font-size: 150px;
-        color: var(--primary-color);
         transform: translateY(-600px);
         animation: 0.3s slideIn ease-in-out forwards 0.5s;
         z-index: 10;
