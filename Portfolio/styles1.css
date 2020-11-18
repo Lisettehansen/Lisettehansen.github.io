@@ -97,7 +97,7 @@ a:hover {
     font-size:1.5vw;
     padding:8vw 0vw 0vw 3vw;
     width: 50vw;
-    background-color: rgb(207, 207, 205);
+    background-color: #F0F0DD;
     
 
 }
@@ -150,7 +150,7 @@ a:hover {
 
 .item3 {
     grid-area: item3;
-    background-color:  rgb(240, 237, 232);
+    background-color:  #F0F0DD;
     
     
 }
