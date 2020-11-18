@@ -213,11 +213,11 @@ a:hover {
 
 .image {
     column-count: 3;
-    width: 25vw;
-   height: 20vw;
+    width: 34vw;
+   height: 26vw;
     margin-right: 10vw;
-    margin-left: 1.5vw;
-    margin-top: 1vw;
+    margin-left:;
+    margin-top: 3vw;
     box-shadow:  5px 2px rgba(143, 143, 143, 0.2);
    }
 
