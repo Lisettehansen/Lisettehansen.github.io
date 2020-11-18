@@ -126,6 +126,7 @@ a:hover {
     width: 7vw;
     height: 6vw;
     margin: 3vw 3vw 3vw 3vw;
+    position: absolute;
 }
 .icons {
     display: flex;
@@ -720,7 +721,7 @@ a:hover {
       
       .overlaytwo {
           position: absolute;
-          width: 90vw;
+          width: 62vw;
           top: 0;
           bottom: 0;
           opacity: 0;
