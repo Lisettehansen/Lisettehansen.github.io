@@ -686,10 +686,9 @@ a:hover {
       }
       
       .container {
-        min-height: 100vh;
         position: relative;
-        width: 100vw;
-        display: flex;
+       
+        display: ;
         background-color: var(--complimentary-color);
         justify-content: center;
         align-items: center;
