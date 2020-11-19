@@ -134,6 +134,12 @@ a:hover {
 
 
 }
+.headline hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vw;
+}
 .item2 img {
     width: 7vw;
     height: 6vw;
