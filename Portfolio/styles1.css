@@ -93,7 +93,7 @@ a:hover {
 
 
 .item2{
-    background-image: url('img/background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/background.jpg');
     height:50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,6 +109,7 @@ a:hover {
     
 
 }
+
 .item2 h1 { 
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 100;
