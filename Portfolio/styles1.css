@@ -98,6 +98,7 @@ a:hover {
     padding:8vw 0vw 0vw 3vw;
     width: 50vw;
     background-color: rgb(233, 233, 223);
+    height:42vw;
     
 
 }
@@ -158,6 +159,7 @@ a:hover {
 .item3 {
     grid-area: item3;
     background-color:  rgb(233, 233, 223);
+    height:43vw;
     
     
 }
