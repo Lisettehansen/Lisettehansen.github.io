@@ -257,15 +257,15 @@ hr {
         bottom: 0;
         left: 0;
         right: 0;
-        height: 22vw;
-        width: 30vw;
+        height: 20vw;
+        width: 27vw;
         opacity: 0;
         margin-left: ;
         margin-top: 3vw;
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.603);
         padding:1.5vw;
-        border: 1px solid rgb(255, 255, 255);
+       /* border: 1px solid rgb(255, 255, 255);*/
 
 
     }
