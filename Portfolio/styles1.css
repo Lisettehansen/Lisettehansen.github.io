@@ -8,6 +8,9 @@
 body {
 background-color: white;
 }
+html {
+    background-image: url('img/background.jpg');
+}
 .grid {
     display: grid;
     grid-template-columns: 25% 25% auto 25%;
