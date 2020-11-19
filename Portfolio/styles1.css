@@ -8,11 +8,8 @@
 body {
 background-color: white;
 }
-html {
-    background-image: url('img/background.jpg');
-    width: 10vw;
-    height:10vw;
-}
+
+
 .grid {
     display: grid;
     grid-template-columns: 25% 25% auto 25%;
@@ -96,6 +93,12 @@ a:hover {
 
 
 .item2{
+    background-image: url('img/background.jpg');
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     grid-area: item2;
     grid-column-start: 1;
     text-align: center;
