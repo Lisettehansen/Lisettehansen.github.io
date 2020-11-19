@@ -135,10 +135,10 @@ a:hover {
 
 }
 .headline hr {
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3vw;
+    margin-top: 2vw;
 }
 .item2 img {
     width: 7vw;
