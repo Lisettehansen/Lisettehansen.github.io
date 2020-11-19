@@ -252,9 +252,9 @@ a:hover {
         left: 0;
         right: 0;
         height: 20vw;
-        width: 29vw;
+        width: 30vw;
         opacity: 0;
-        margin-left: 1.5vw;
+        margin-left: ;
         margin-top: 1vw;
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.603);
