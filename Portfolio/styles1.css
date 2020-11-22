@@ -722,6 +722,9 @@ hr {
         .item6 {
             display: none;
         }
+        .vl {
+            height: 0;
+        }
        
     
 
