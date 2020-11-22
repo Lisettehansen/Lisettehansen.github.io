@@ -731,70 +731,11 @@ hr {
 
     }
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      
-      :root {
-        --primary-color: #6CD9CE;
-        --secondary-color: #D93BA1;
-        --complimentary-color: #2E2473;
-      }
-    
-   
-    
+  
       
      
+   
+    
     
       
-      @keyframes skewBg {
-        0% {
-          transform: scale(.5);
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-      
-      @keyframes underline {
-        100% {
-          width: 100%;
-        }
-      }
-      
-      @keyframes slideIn {
-        100% {
-          transform: translateY(0px);
-          opacity: 1;
-        }
-      }
-
-      .containertwo {
-
-        background: 50% 100% / 50% 50% no-repeat
-              radial-gradient(ellipse at bottom, #fff, transparent, transparent);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 10vw;
-  font-family: "Source Sans Pro", sans-serif;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-             glow 2500ms linear infinite 2000ms;
-
-  @keyframes reveal {
-    80%{
-      letter-spacing: 8px;
-    }
-    100% {
-      background-size: 300% 300%;
-    }
-  }
-  @keyframes glow {
-    40% {
-      text-shadow: 0 0 8px #fff;
-    }
-  }
-}  
     
