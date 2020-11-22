@@ -101,14 +101,14 @@ a:hover {
     
 
 }
-.item2 h1 { /*
+.item2 h1 { 
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 100;
     font-size: 5.5vw;
-    background-image: 
+    background-image: ;
     /*url(https://media.giphy.com/media/26BRvIYDe4ILO60Ni/giphy.gif);*/
     /*url(https://media.giphy.com/media/3oKIPovaivfg1vZ6es/giphy.gif); */
-    url(https://media.giphy.com/media/xT9DPPFFbqar2olXQA/giphy.gif);/*
+    /*url(https://media.giphy.com/media/xT9DPPFFbqar2olXQA/giphy.gif);*/
    background-size: cover;
     color:transparent;
     -moz-background-clip: text;
@@ -116,7 +116,7 @@ a:hover {
 	text-transform: uppercase;
 	line-height:;
     margin: 10px 0;
-    position: absolute;*/
+    position: absolute;
 
 }
 .item2 h2 {
