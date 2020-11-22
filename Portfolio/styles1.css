@@ -415,6 +415,7 @@ hr {
     }
     .item6 {
         grid-area: item6;
+        background-color: #f3f3f3;
 
     }
 
@@ -439,6 +440,7 @@ hr {
 
     .item7 {
         grid-area: item7;
+        background-color: #f3f3f3;
     }
     .btn {
         width: 15vw;
