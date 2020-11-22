@@ -742,35 +742,9 @@ hr {
         --secondary-color: #D93BA1;
         --complimentary-color: #2E2473;
       }
-      
-      /*.containertwo {
-        position: relative;
-        display: ;
-        justify-content: center;
-        align-items: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-       position: relative;*/
-      }
-      
-      h1 {
-        font-size: 150px;
-        transform: translateY(-600px);
-        animation: 0.3s slideIn ease-in-out forwards 0.5s;
-        z-index: 10;
-        opacity: 0;
-        position: relative;
-      }
-      
-      h1::before {
-          content: ;
-          width: 0%;
-          height: 76px;
-          background-color: var(--secondary-color);
-          position: absolute;
-          bottom: -10px;
-          animation: 1s underline ease-in-out forwards 2s;
-          mix-blend-mode: screen;
-      }
+    
+   
+    
       
      
     
