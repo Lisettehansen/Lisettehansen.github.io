@@ -686,8 +686,9 @@ hr {
 
         }
         .item2 {
-            margin-left:25vw;
+            margin-left:10vw;
             padding-top: 15vw;
+            background-color: none;
         }
 
         .item3 {
