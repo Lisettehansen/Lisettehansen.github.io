@@ -685,6 +685,9 @@ hr {
     .imgcv {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+    .item7 img {
+        margin-right: 4vw;
+    }
 
     @media (min-width: 320px) and (max-width: 767px) {
         
