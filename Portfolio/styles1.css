@@ -543,7 +543,8 @@ hr {
         grid-area: item11;
         margin:3vw 3vw 0vw 3vw;
         border-bottom: 3px solid rgb(227, 221, 233);
-        padding-bottom: 3vw;
+        padding-bottom: 11vw;
+        
     }
     .item11 h5 {
         text-align: center;
