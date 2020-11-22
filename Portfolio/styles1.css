@@ -325,6 +325,7 @@ hr {
         height: 33vw;
         padding: 3vw;
         border: 2px solid #E6DDF0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
     .info p {
