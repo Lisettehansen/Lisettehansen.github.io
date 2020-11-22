@@ -687,7 +687,7 @@ hr {
 
         }
         .item2 {
-            margin-left:10vw;
+            margin-left:20vw;
             padding-top: 15vw;
             background-color: white;
         }
@@ -713,6 +713,9 @@ hr {
 
         .box {
             width: 90vw;
+        }
+        .item6 {
+            display:none;
         }
 
 
