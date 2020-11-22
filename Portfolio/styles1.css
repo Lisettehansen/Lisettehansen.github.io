@@ -118,7 +118,6 @@ a:hover {
 
 }
 .item2 h2 {
-
     font-size: 1.6vw;
     margin-top: 18vw;
   
@@ -186,10 +185,6 @@ a:hover {
 .item4 h1 {
     text-align: center;
     font-size: 3vw;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Julius Sans One', sans-serif;
-    font-family: 'Wire One', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 100;
 }
