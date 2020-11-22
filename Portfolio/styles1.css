@@ -27,7 +27,6 @@ background-color: white;
     grid-row-start: 1;
     grid-row-end:1;
     padding: 10px 16px;
-    position: ;
     top: 0;
    
 }
@@ -112,7 +111,6 @@ a:hover {
     -moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
-	line-height:;
     margin: 10px 0;
     position: absolute;
 
@@ -205,11 +203,6 @@ a:hover {
 }
 .cases {
     column-count: 3;
-    padding-left:;
-    padding:;
-    /*border: 3px solid#d1d1d1;*/
-   
-
 }
 hr {
     width: 30%;
@@ -219,7 +212,6 @@ hr {
 }
 
 .box1 {
-    width:;
     height:16vw;
     position: relative;
 }
@@ -231,17 +223,13 @@ hr {
     column-count: 3;
     width: 27vw;
    height: 20vw;
-    margin-right:;
-    margin-left: ;
     margin-top: 3vw;
     box-shadow:  5px 2px rgba(143, 143, 143, 0.2);
-    border-style: ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
    }
 
    .box2 {
-    width: ;
     height:16vw;
     position: relative;
     }
@@ -252,7 +240,6 @@ hr {
     
     }
     .box3 {
-    width:;
     height:16vw;
     position: relative;
 
@@ -270,7 +257,6 @@ hr {
         height: 21.5vw;
         width: 27vw;
         opacity: 0;
-        margin-left: ;
         margin-top: 3vw;
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.603);
@@ -727,9 +713,6 @@ hr {
             width: 90vw;
         }
 
-
-
-    }
 
   
       
