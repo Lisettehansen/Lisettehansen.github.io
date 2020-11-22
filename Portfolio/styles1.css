@@ -714,9 +714,13 @@ hr {
         .box {
             width: 90vw;
         }
-        .item6 {
-            display:none;
+
+        .gridmaster {
+            display: block;
+
         }
+       
+    
 
 
   
