@@ -108,8 +108,6 @@ a:hover {
     url(https://media.giphy.com/media/26BRvIYDe4ILO60Ni/giphy.gif);
     background-size: cover;
     color:transparent;
-    -moz-background-clip: text;
-	-webkit-background-clip: text;
 	text-transform: uppercase;
     margin: 10px 0;
     position: absolute;
@@ -314,7 +312,6 @@ hr {
         height: 33vw;
         padding: 3vw;
         border: 2px solid #E6DDF0;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: black;
         color:white;
@@ -322,7 +319,6 @@ hr {
     
     .info p {
         text-align: left;
-        font-family: 'Manrope', sans-serif;
         font-size: 1.2vw;
         line-height: 1.6;
         font-family: 'Rajdhani', sans-serif;
@@ -722,15 +718,5 @@ hr {
         .vl {
             height: 0;
         }
-       
-    
-
-
-  
-      
      
-   
-    
-    
-      
-    
+    }
