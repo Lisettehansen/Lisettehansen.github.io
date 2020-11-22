@@ -107,8 +107,9 @@ a:hover {
     font-size: 5.5vw;
     background-image: 
     /*url(https://media.giphy.com/media/26BRvIYDe4ILO60Ni/giphy.gif);*/
-    url(https://media.giphy.com/media/3oKIPovaivfg1vZ6es/giphy.gif);
-    background-size: cover;
+    /*url(https://media.giphy.com/media/3oKIPovaivfg1vZ6es/giphy.gif); */
+    url(https://media.giphy.com/media/yoJC2ygNZB12dFVcI0/giphy.gif);
+   background-size: cover;
     color:transparent;
     -moz-background-clip: text;
 	-webkit-background-clip: text;
