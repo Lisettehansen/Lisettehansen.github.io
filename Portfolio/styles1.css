@@ -316,7 +316,7 @@ hr {
 
     .item5 {
         grid-area: item5;
-       
+       margin-top: 5vw;
         height: 10vw;
     }
 
