@@ -203,6 +203,7 @@ a:hover {
 }
 .cases {
     column-count: 3;
+    padding-left: 2vw;
 }
 hr {
     width: 30%;
