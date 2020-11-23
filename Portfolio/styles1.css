@@ -31,6 +31,7 @@ background-color: white;
    
 }
 
+/*logo*/
 .logo img {
     height:6vw;
     width: vw;
@@ -100,6 +101,7 @@ a:hover {
     
 
 }
+/*forside*/
 .item2 h1 { 
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 100;
@@ -195,6 +197,7 @@ a:hover {
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
 }
+/*cases*/
 .cases {
     column-count: 3;
     padding-left: 2vw;
@@ -206,6 +209,7 @@ hr {
     margin-bottom: 3vw;
 }
 
+/*case: Ungdomsringensmusikfestival*/
 .box1 {
     height:16vw;
     position: relative;
@@ -223,7 +227,7 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
    }
-
+/*case: Svalegaarden Mest*/
    .box2 {
     height:16vw;
     position: relative;
@@ -232,8 +236,8 @@ hr {
     .box2:hover .overlay{
         opacity: 1;
       
-    
     }
+/*case: DistributionPlus*/
     .box3 {
     height:16vw;
     position: relative;
@@ -297,12 +301,14 @@ hr {
         font-family: 'Julius Sans One', sans-serif;
     }
 
+    /*footer*/
     .item5 {
         grid-area: item5;
        margin-top: 5vw;
         height: 10vw;
     }
 
+    /*profil side*/
     .info {
         width: 45vw;
         height: 33vw;
@@ -370,7 +376,7 @@ hr {
 
     }
 
-    /*cases*/
+    /*cases siderne*/
 
     .gridmaster {
         display:grid;
@@ -479,7 +485,6 @@ hr {
         left: 50%;
         margin-left:vw;
     }
-
     .item9 {
         display:grid;
         grid-area: item9;
@@ -487,15 +492,12 @@ hr {
         border-bottom: 3px solid rgb(227, 221, 233);
         padding-top: 3vw;
         padding-bottom: 3vw;
-    
     }
-    
     .item9 h5 {
         text-align: center;
         font-size: 2vw;
         padding-bottom: 2vw;
     }
-
     .item10 {
         display: grid;
         grid-area:item10;
@@ -515,7 +517,6 @@ hr {
         font-size: 2vw;
         padding-bottom: 2vw;
     }
-
     .item12 {
         display: grid;
         grid-area: item12;
@@ -571,10 +572,7 @@ hr {
         grid-area: item15;
         margin:3vw 3vw 0vw 3vw;   
         padding-top: 3vw;
-
-
     }
-
     .item15 h5 {
         text-align: center;
         font-size: 2vw;
@@ -589,10 +587,6 @@ hr {
         height: 25vw;
         width: 40vw;
     }
-
-  
-    
-
     /*Kontakt side*/
     .contact {
        margin-top: 4vw;
@@ -618,6 +612,8 @@ hr {
         font-family: 'Raleway', sans-serif;
         
     }
+
+    /*footer*/
 
     .footer {
         
