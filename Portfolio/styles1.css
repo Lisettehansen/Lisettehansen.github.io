@@ -419,6 +419,7 @@ hr {
     }
     .item7 h2 {
         font-family: 'Julius Sans One', sans-serif;
+        font-weight: 100;
     }
     .btn {
         width: 15vw;
