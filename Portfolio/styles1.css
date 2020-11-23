@@ -423,20 +423,8 @@ hr {
         margin-top: 4vw;
         margin-left: 6vw;
     }
-    .btn {
-        width: 15vw;
-        height: 5vw;
-        background-color:#ffffff;
-        border: 2px solid rgb(173, 173, 173);
-        box-shadow: 5px 5px 5px rgb(184, 180, 180);
-        font-size: 1.3vw;
-        cursor: pointer;
-        height: 4vw;
-        margin-left:9vw;
-        margin-bottom: 2vw;
-        font-family: 'Julius Sans One', sans-serif;
+    
        
-    }
     .btn:hover {
         border-color:#E6DDF0;
 
