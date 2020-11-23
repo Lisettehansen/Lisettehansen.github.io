@@ -648,6 +648,8 @@ hr {
         margin-right: 4vw;
     }
 
+    /*mobilversion*/
+
     @media (min-width: 320px) and (max-width: 767px) {
         
         header nav ul {
