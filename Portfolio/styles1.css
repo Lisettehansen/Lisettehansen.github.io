@@ -417,6 +417,9 @@ hr {
         grid-area: item7;
         background-color: #f3f3f3;
     }
+    .item7 h2 {
+        font-family: 'Julius Sans One', sans-serif;
+    }
     .btn {
         width: 15vw;
         height: 5vw;
