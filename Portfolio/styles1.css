@@ -247,6 +247,12 @@ hr {
         opacity: 1;
     }
 
+    .box4 {
+        height:16vw;
+        position: relative;
+    
+    }
+
     .overlay {
         position: absolute;
         top: 0;
